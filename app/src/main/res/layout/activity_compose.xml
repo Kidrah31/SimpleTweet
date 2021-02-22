@@ -22,6 +22,7 @@
         android:textColorHighlight="#00acee"
         android:textColorLink="#00acee" />
 
+
     <Button
         android:id="@+id/btnTweet"
         android:layout_width="wrap_content"
@@ -33,4 +34,14 @@
         android:backgroundTint="#00acee"
         android:text="@string/tweet"
         android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvCharValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCompose"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:layout_toStartOf="@+id/btnTweet"
+        android:text="280" />
 </RelativeLayout>
