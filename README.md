@@ -19,7 +19,12 @@ The following **optional** features are implemented:
 
 - [x] User is using **"Twitter branded" colors and styles**
 - [x] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.org/android/Using-Parceler).
-- [x] User can **open the twitter app offline and see last loaded tweets**. Persisted in SQLite tweets are refreshed on every application launch. While "live data" is displayed 
+- [x] User can **open the twitter app offline and see last loaded tweets**. Persisted in SQLite tweets are refreshed on every application launch. While "live data" is displayed
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/Kidrah31/SimpleTweet/blob/master/Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> 
 
 # Part 1
 ## User Stories
@@ -36,15 +41,20 @@ The following **optional** features are implemented:
 
 - [x] User can view more tweets as they scroll with infinite pagination
 - [x] Improve the user interface and theme the app to feel "twitter branded"
-
-
+- [x] Links in tweets are clickable and will launch the web browser
+- [ ] User can tap a tweet to display a "detailed" view of that tweet
+- [ ] User can see embedded image media within the tweet detail view
+- [ ] User can watch embedded video within the tweet
+- [x] User can open the twitter app offline and see last loaded tweets
+- [ ] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides / shows the toolbar.
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/Kidrah31/SimpleTweet/blob/master/Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Kidrah31/SimpleTweet/blob/master/SimpleTweet_Walkthrough_1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> 
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
