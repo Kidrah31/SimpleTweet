@@ -67,6 +67,7 @@ public class TimelineActivity extends AppCompatActivity {
         //recycler View setup, layout manager and adapter
         rvTweets.setLayoutManager(layoutManager);
         rvTweets.setAdapter(adapter);
+        //Scroll Listener for Infinite Pagination
         scrollListener=new EndlessRecyclerViewScrollListener(layoutManager) {
             @Override
             public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
